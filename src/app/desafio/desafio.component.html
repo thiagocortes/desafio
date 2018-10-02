@@ -1,6 +1,6 @@
 <div class="card" style="width: 100%;">
   <div class="card-header">
-      Desafio Solutis: Retornar uma vogal que sucede uma consoante e que não se repita
+      Desafio Solutis: Retornar primeiro caractere Vogal, após uma consoante, onde a mesma é antecessora a uma vogal e que não se repita na string
   </div>
   <div class="card-body">
     <div class="col-md-12">
@@ -9,7 +9,7 @@
         <div class="form-group row">
     
           <div class="col-sm-6">
-              <label for="filter">Digite uma palavra:</label>
+              <label for="filter">Digite uma String:</label>
               <input type="text" formControlName="filter" class="form-control" name="filter" id="filter">
               <span class="erro" *ngIf="!formSearch.valid">Campo Obrigatório</span>
           </div>
